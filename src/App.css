@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #292D32;
+    background: #F7F8F9;
+
+    font-family: "Montserrat", sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:where(.css-dev-only-do-not-override-mzwlov).ant-form-item .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: ''
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-form-item-explain-error{display: none}
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 32px 16px 0 16px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.layout-app{
+    display: flex;
+    position: relative;
 }

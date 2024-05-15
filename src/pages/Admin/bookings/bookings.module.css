@@ -1,0 +1,251 @@
+.bookingsBox {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.bookingsBox_left {
+    width: 48%;
+    padding: 14px;
+}
+
+.bookingsBox_left_top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bookingsBox_left_user {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bookingsBox_left_userInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bookingsBox_left_userInfo p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 4px;
+}
+
+.bookingsBox_left_userInfo h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.bookingsBox_left_body {
+    margin-top: 28px;
+}
+
+.bookingsBox_left_body_item {
+    display: flex;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.bookingsBox_left_body_item_icon {
+    height: 100%;
+}
+
+.bookingsBox_left_body_item_info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.bookingsBox_left_body_item_info h2 {
+    font-size: 14px;
+    color: #A6A6A6;
+    font-weight: 400;
+    margin: 0 0 4px 0;
+}
+
+.bookingsBox_left_body_item_info h1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #292D32;
+    margin: 0;
+}
+
+.bookingsBox_left_body_footer {
+    margin-top: 32px;
+}
+
+.bookingsBox_left_body_footer h1:nth-child(1) {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    color: #292D32;
+    font-weight: 700;
+}
+
+.bookingsBox_left_body_footer select {
+    width: 50%;
+    height: 64px;
+    padding: 18px;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none;
+    background: url("../../../assets/icons/arrowRight.svg") no-repeat 95% 50%;
+    border: #EEEFF5 solid 1px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bookingsBox_left_body_footer select option {
+    border: #EEEFF5 solid 1px;
+    outline: none;
+}
+
+.bookingsBox_right {
+    width: 48%;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.bookingsBox_left_body_item_end {
+    align-items: center;
+}
+
+.bookingsBox_left_body_item_end span {
+    margin-left: 8px;
+}
+
+
+.booking_status_btn {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.bookingsBox_left_body_end {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.bookingsBox_left_body_end_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookingsBox_left_body_end_box button {
+    width: 90%;
+    height: 36px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #292D32;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bookingsBox_left_body_end_box_deleteBtn {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFEFEF;
+    margin-left: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.bookingsTable{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.bookingsTable table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.bookingsTable table thead{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+.bookingsTable table tbody{
+    font-size: 14px;
+    font-weight: 600;
+    color: #292D32;
+}
+.bookingsTable table thead tr , .bookingsTable table tbody tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bookingsTable table tbody tr{
+    margin: 10px 0;
+    padding: 10px;
+}
+.bookingsTable table tbody tr:nth-child(even){
+    background: rgba(180, 179, 179, 0.09);
+    border-radius: 10px;
+
+}
+.bookingsTable table td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.bookingsTable table th{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.bookingsTable table thead tr{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.bookingsTable table td a{
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.bookingsTableNoData{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
